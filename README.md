@@ -1,1 +1,1 @@
-se leu é um bobão
+se leu é um corno
