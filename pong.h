@@ -3,11 +3,11 @@
 
 #include <allegro5/allegro_font.h>
 
-// Definições de constantes
+// DefiniÃ§Ãµes de constantes
 #define SCREEN_WIDTH 1000
 #define SCREEN_HEIGHT 500
 #define PADDLE_WIDTH 10
-#define PADDLE_HEIGHT 100
+#define PADDLE_HEIGHT 50
 #define BALL_SIZE 10
 #define BALL_SPEED 8
 #define PADDLE_SPEED 6
@@ -30,7 +30,7 @@ typedef struct Node {
     struct Node *right;
 } Node;
 
-// Funções
+// FunÃ§Ãµes
 Node* create_node(char *label);
 void draw_button(ALLEGRO_FONT *font, char *label, float x, float y, bool selected);
 void draw_menu(ALLEGRO_FONT *font, Node *root, Node *selected_node);
